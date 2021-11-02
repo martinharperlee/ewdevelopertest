@@ -9,7 +9,7 @@ ES6 Javascript transpiled
 BEM - not strictly required for a small project but demonstrates knowledge of methodologies
 
 ### Tests:
-Jest - A simple set of unit testa for carousel counting logic
+Jest - A simple set of unit tests for carousel counting logic
 
 ## Project setup
 Installs dependencies, basic setup using parcel-bundler
