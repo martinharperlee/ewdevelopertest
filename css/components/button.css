@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+.button:focus {
+    box-shadow: inset 0px 0px 0px 5px var(--accessible-color);
+}
+
 .button--primary {
     background-color: var(--primary-color);
     color: var(--secondary-color);

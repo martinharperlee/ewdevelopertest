@@ -6,7 +6,7 @@
 
 .feature-box { 
     position: relative;
-    width: calc(100% - 2rem);
+    width: calc(100% - var(--spacing));
     margin: calc(var(--spacing)/4) calc(var(--spacing)/2);
     overflow: hidden;
     text-decoration: none;
@@ -16,12 +16,13 @@
 }
 
 .feature-box:focus {
-    border: solid 3px var(--accessible-color);
+    box-shadow: inset 0px 0px 0px 5px var(--accessible-color);
 }
 
 .feature-box__img { 
     position: absolute;
     width: 100%;
+    z-index: -1;
 }
 
 .feature-box__text {
@@ -52,7 +53,7 @@
 
 @media only screen and (min-width: 70rem) {
     .feature-box { 
-        width: calc((100% / 3) - 2rem);
+        width: calc((100% / 3) - var(--spacing));
     }
     .feature-box__text {
         font-size: 1.5rem;
