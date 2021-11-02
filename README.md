@@ -3,20 +3,22 @@
 [endless-developer-test.netlify.app](https://endless-developer-test.netlify.app)
 
 ### Javscript: 
-ES6  - Module pattern for hero component
+ES6 Javascript transpiled
 
 ### CSS:
-BEM - not strictly required for a small project but wanted to demonstrate knowledge of a variety of techniques / methodologies
+BEM - not strictly required for a small project but demonstrates knowledge of methodologies
 
 ### Tests:
-Jest - Simple unit testing for carousel counting logic
+Jest - A simple set of unit testa for carousel counting logic
 
 ## Project setup
+Installs dependencies, basic setup using parcel-bundler
 ```
 yarn
 ```
 
 ### Compiles and hot-reloads for development
+Starts project on localhost:1234
 ```
 yarn start
 ```
