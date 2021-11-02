@@ -13,22 +13,22 @@ Jest - Simple unit testing for carousel counting logic
 
 ## Project setup
 ```
-npm install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run start
+yarn start
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
 
 ### Run unit tests
 ```
-npm run test
+yarn test
 ```
 
 
