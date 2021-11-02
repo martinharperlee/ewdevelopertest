@@ -1,4 +1,4 @@
-# Swapi Challenge
+# Endless Wardrobe Challenge
 
 [endless-developer-test.netlify.app](https://endless-developer-test.netlify.app)
 
