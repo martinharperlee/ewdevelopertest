@@ -1,12 +1,12 @@
 {
-  "short_name": "",
+  "short_name": "Endless Wardrobe Developer Test",
   "name": "",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
-    "sizes": "192x192"
+    "sizes": "196x196"
   }],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
 }
