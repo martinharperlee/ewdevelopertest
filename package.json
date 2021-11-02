@@ -1,0 +1,22 @@
+{
+  "name": "ENDLESS_WARDROBE",
+  "version": "0.0.1",
+  "description": "Endless Wardrobe FE Test",
+  "keywords": "",
+  "license": "",
+  "author": "Martin Harper-Lee",
+  "scripts": {
+    "build": "rimraf dist && parcel build index.html",
+    "dev": "parcel index.html --https --open --open safari",
+    "start": "npm run build && npm run dev",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}

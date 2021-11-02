@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    padding: calc(var(--spacing) /3) calc(var(--spacing) /2);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.button--secondary {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
