@@ -1,5 +1,11 @@
 .container {
     margin: 0 auto;
     max-width: 87.5rem;
-    padding: var(--spacing);
+    padding: calc(var(--spacing) / 2);
+}
+
+@media only screen and (min-width: 25rem) {
+    .container {
+        padding: var(--spacing);
+    }
 }

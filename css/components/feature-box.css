@@ -1,13 +1,13 @@
 .feature-grid {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem -1rem
+    margin: calc(var(--spacing) / 4) calc(var(--spacing) / 2 * -1);
 }
 
 .feature-box { 
     position: relative;
     width: calc(100% - 2rem);
-    margin: 1rem;
+    margin: calc(var(--spacing)/4) calc(var(--spacing)/2);
     overflow: hidden;
     text-decoration: none;
     min-height: 5rem;
@@ -35,9 +35,18 @@
     text-shadow: 1px 1px 20px var(--primary-color);
 }
 
+@media only screen and (min-width: 25rem) {
+    .feature-grid {
+        margin: calc(var(--spacing) / 2) calc(var(--spacing) / 2 * -1);
+    }
+    .feature-box { 
+        margin: calc(var(--spacing)/2);
+    }
+}
+
 @media only screen and (min-width: 45rem) {
     .feature-box { 
-        width: calc((100% / 2) - 2rem);
+        width: calc((100% / 2) - var(--spacing));
     }
 }
 
