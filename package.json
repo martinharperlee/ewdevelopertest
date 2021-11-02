@@ -1,9 +1,7 @@
 {
-  "name": "ENDLESS_WARDROBE",
+  "name": "EndlessWardrobeMHL",
   "version": "0.0.1",
   "description": "Endless Wardrobe FE Test",
-  "keywords": "",
-  "license": "",
   "author": "Martin Harper-Lee",
   "scripts": {
     "build": "rimraf dist && parcel build index.html",
